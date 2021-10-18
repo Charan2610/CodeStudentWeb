@@ -25,20 +25,14 @@ public class ConvertDtoController {
 
     public List<StudentDTO> getAllStudentDTO(List<Student> students){
         return  students.stream().map(u -> entityToDto(u)).collect(Collectors.toList());
-
-
     }
-
 
     public List<Student> getAllStudent(List<StudentDTO> users){
         return  users.stream().map(u -> dtoToEntity(u)).collect(Collectors.toList());
-
-
     }
 
 
     public Student dtoToEntity(StudentDTO studentDto){
-
         Student stu= new Student();
         stu.setId(studentDto.getId());
         stu.setAge(studentDto.getAge());
