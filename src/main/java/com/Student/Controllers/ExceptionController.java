@@ -1,7 +1,6 @@
 package com.Student.Controllers;
 
 import com.Student.Exceptions.Error;
-import com.Student.Exceptions.StudentException;
 import com.Student.Models.ShowError;
 import javassist.NotFoundException;
 import org.springframework.http.HttpStatus;

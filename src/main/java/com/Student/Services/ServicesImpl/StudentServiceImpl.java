@@ -2,13 +2,11 @@ package com.Student.Services.ServicesImpl;
 
 import com.Student.Dao.StudentRepo;
 import com.Student.Exceptions.Error;
-import com.Student.Exceptions.StudentException;
 import com.Student.Models.Student;
 import com.Student.Services.StudentServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.xml.bind.ValidationException;
 import java.util.List;
 import java.util.Optional;
 

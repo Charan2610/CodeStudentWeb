@@ -1,7 +1,6 @@
 package com.Student.Services;
 
 import com.Student.Exceptions.Error;
-import com.Student.Exceptions.StudentException;
 import com.Student.Models.Student;
 
 import javax.xml.bind.ValidationException;

@@ -3,7 +3,6 @@ package com.Student.Controllers;
 
 import com.Student.DTO.StudentDTO;
 import com.Student.Exceptions.Error;
-import com.Student.Exceptions.StudentException;
 import com.Student.Models.Student;
 import com.Student.Models.Users;
 import com.Student.Services.ServicesImpl.StudentServiceImpl;
